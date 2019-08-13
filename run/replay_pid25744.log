@@ -1,0 +1,34 @@
+JvmtiExport can_access_local_variables 1
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 1
+# 246 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1718105 0 96
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/String <init> ([CII)V 4097 1 5668 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 4097 20497 8419 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 4097 5113 5850 0 640
+ciMethod java/lang/String startsWith (Ljava/lang/String;)Z 4097 1 215525 0 544
+ciMethod java/lang/Character valueOf (C)Ljava/lang/Character; 2129 1 1221 0 -1
+ciMethod java/lang/Float intBitsToFloat (I)F 25 1 3 0 -1
+ciMethod java/lang/Double longBitsToDouble (J)D 73 1 9 0 -1
+ciMethod java/lang/Byte valueOf (B)Ljava/lang/Byte; 217 1 79 0 -1
+ciMethod java/lang/Short valueOf (S)Ljava/lang/Short; 17 1 2 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List addAll (Ljava/util/Collection;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 1345 1 88250 0 0
+ciMethod java/util/AbstractCollection <init> ()V 2169 1 173320 0 32
+ciMethod java/util/ArrayList <init> (I)V 2049 1 5453 0 320
+ciMethod java/util/ArrayList <init> ()V 201 1 48297 0 -1
+ciMethod java/util/ArrayList calculateCapacity ([Ljava/lang/Object;I)I 3441 1 11953 0 0
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 3441 1 11953 0 672
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 3441 1 11953 0 608
+ciMethod java/util/ArrayList grow (I)V 425 1 6244 0 576
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 3441 1 5962 0 1088
+ciMethod java/lang/Math max (II)I 4097 1 84931 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2057 1 11258 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2217 1 5418 0 -1
+ciMethod java/util/Arrays asList ([Ljava/lang/Object;)Ljava/util/List; 2057 1 21706 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1718106 orig 264 88 131 123 85 0 0 0 0 128 4 235 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 209 170 209 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String startsWith (Ljava/lang/String;I)Z 2 12180 orig 264 88 131 123 85 0 0 0 0 72 78 235 22 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 2 0 0 209 166 0 0 169 104 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 25 0 0 0 0 0 data 16 0x190007 0x2 0x40 0x14d8 0x250007 0x141a 0x20 0xbe 0x2f0007 0x1f5 0x40 0x3540 0x410007 0x231b 0xffffffffffffffe0 0x1225 oops 0
+ciMethodData java/lang/String startsWith (Ljava/lang/String;)Z 2 215570 orig 264 88 131 123 85 0 0 0 0 224 78 235 22 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 145 64 26 0 1 0 0 0 0 0 0 0 0 0 

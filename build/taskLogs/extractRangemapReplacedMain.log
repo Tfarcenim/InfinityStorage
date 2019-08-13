@@ -1,0 +1,65 @@
+Symbol range map extraction starting
+Processing 21 files
+startProcessing "d4rsorc\infinitystorage\ClientEvents.java" md5: 8010100edb52015fad96128101da6482
+endProcessing "d4rsorc\infinitystorage\ClientEvents.java"
+
+startProcessing "d4rsorc\infinitystorage\InfinityBagHandler.java" md5: 54592d486aea35085228dcdef460bb42
+endProcessing "d4rsorc\infinitystorage\InfinityBagHandler.java"
+
+startProcessing "d4rsorc\infinitystorage\InfinityHandler.java" md5: 1c8eb55cb441c5fdd202e6dbebe8653e
+endProcessing "d4rsorc\infinitystorage\InfinityHandler.java"
+
+startProcessing "d4rsorc\infinitystorage\InfinityStorage.java" md5: 306b4d7a17351b2bb9d5b42393dedc4d
+endProcessing "d4rsorc\infinitystorage\InfinityStorage.java"
+
+startProcessing "d4rsorc\infinitystorage\RenderItemExtended.java" md5: 074c8cf0ce2877d1a8aeb6a1606f328a
+endProcessing "d4rsorc\infinitystorage\RenderItemExtended.java"
+
+startProcessing "d4rsorc\infinitystorage\block\BlockUltimateChest.java" md5: c90196e28ecc18966cea36d0f3141f5b
+endProcessing "d4rsorc\infinitystorage\block\BlockUltimateChest.java"
+
+startProcessing "d4rsorc\infinitystorage\container\BagSlotExtended.java" md5: 1cb8fb68f1360cd083b127fab03d3380
+endProcessing "d4rsorc\infinitystorage\container\BagSlotExtended.java"
+
+startProcessing "d4rsorc\infinitystorage\container\InfinityBagContainer.java" md5: 27623f8316834fb0a45d250eee50429c
+endProcessing "d4rsorc\infinitystorage\container\InfinityBagContainer.java"
+
+startProcessing "d4rsorc\infinitystorage\container\InfinityBagScreen.java" md5: b8ff325bda97d6b4cf17032ca417c26a
+endProcessing "d4rsorc\infinitystorage\container\InfinityBagScreen.java"
+
+startProcessing "d4rsorc\infinitystorage\container\InfinityChestContainer.java" md5: fdb3b066fb25e18752a48e0b1c8aa25a
+endProcessing "d4rsorc\infinitystorage\container\InfinityChestContainer.java"
+
+startProcessing "d4rsorc\infinitystorage\container\InfinityChestScreen.java" md5: 65f6bc2d47d223fe1fdd32ab8ce684f2
+endProcessing "d4rsorc\infinitystorage\container\InfinityChestScreen.java"
+
+startProcessing "d4rsorc\infinitystorage\container\LockedSlot.java" md5: 49ccc259c1da80b4db0bf37f23aa91a1
+endProcessing "d4rsorc\infinitystorage\container\LockedSlot.java"
+
+startProcessing "d4rsorc\infinitystorage\container\SlotExtended.java" md5: 9cac9482bca5ccf08d67f4af87044197
+endProcessing "d4rsorc\infinitystorage\container\SlotExtended.java"
+
+startProcessing "d4rsorc\infinitystorage\handlers\GuiHandler.java" md5: 073f9bb86c3ef11ee54c0ac51caa9f69
+endProcessing "d4rsorc\infinitystorage\handlers\GuiHandler.java"
+
+startProcessing "d4rsorc\infinitystorage\item\ItemUltimateBag.java" md5: 137a462eddbbbdc8b49b3ec0875a7a64
+endProcessing "d4rsorc\infinitystorage\item\ItemUltimateBag.java"
+
+startProcessing "d4rsorc\infinitystorage\network\MessageClickWindowExtended.java" md5: bfdce69a8fee5633992dc91cb069d7dd
+endProcessing "d4rsorc\infinitystorage\network\MessageClickWindowExtended.java"
+
+startProcessing "d4rsorc\infinitystorage\network\MessageSyncExtendedSlotContents.java" md5: 4ac3019ed0633c3f10c9bb302e75acf6
+endProcessing "d4rsorc\infinitystorage\network\MessageSyncExtendedSlotContents.java"
+
+startProcessing "d4rsorc\infinitystorage\network\NetworkUtils.java" md5: 862f888bd3b1759dcc9fe21cb56307e7
+endProcessing "d4rsorc\infinitystorage\network\NetworkUtils.java"
+
+startProcessing "d4rsorc\infinitystorage\network\PacketHandler.java" md5: 28fd75d93bcf7afbbf1ecbed7e1cd0fa
+endProcessing "d4rsorc\infinitystorage\network\PacketHandler.java"
+
+startProcessing "d4rsorc\infinitystorage\tile\TESRUltimateChest.java" md5: f24ad18b505e294cb91f568e6a79e858
+endProcessing "d4rsorc\infinitystorage\tile\TESRUltimateChest.java"
+
+startProcessing "d4rsorc\infinitystorage\tile\TileInfiniteStorage.java" md5: 5646fcf0c392d5154cf204c7c61e5896
+endProcessing "d4rsorc\infinitystorage\tile\TileInfiniteStorage.java"
+

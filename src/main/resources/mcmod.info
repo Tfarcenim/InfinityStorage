@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "UltimateStorage",
+        "name": "UltimateStorage",
+        "description": "chest and bag with unlimited single item storage slots",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["TheNimbleNinja"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
