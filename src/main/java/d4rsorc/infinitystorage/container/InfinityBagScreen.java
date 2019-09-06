@@ -73,7 +73,7 @@ public class InfinityBagScreen extends GuiContainer {
 
   @Override
   protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-    this.fontRenderer.drawString("container.infinitystorage.ultimate_bag", 8, 6, 4210752);
+    this.fontRenderer.drawString(this.te.getBag().getDisplayName(), 8, 6, 4210752);
     this.fontRenderer.drawString(this.playerinventory.getDisplayName().getUnformattedText(), 8, this.ySize - 96 + 4, 4210752);
   }
 

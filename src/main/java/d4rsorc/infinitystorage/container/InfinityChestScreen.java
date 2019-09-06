@@ -94,10 +94,10 @@ public class InfinityChestScreen extends GuiContainer {
     GlStateManager.disableDepth();
 
     for (int k = 0; k < this.buttonList.size(); ++k) {
-      ((GuiButton)this.buttonList.get(k)).drawButton(this.mc, mouseX, mouseY, partialTicks);
+      this.buttonList.get(k).drawButton(this.mc, mouseX, mouseY, partialTicks);
     }
     for (int l = 0; l < this.labelList.size(); ++l) {
-      ((GuiLabel)this.labelList.get(l)).drawLabel(this.mc, mouseX, mouseY);
+      this.labelList.get(l).drawLabel(this.mc, mouseX, mouseY);
     }
 
     RenderHelper.enableGUIStandardItemLighting();
@@ -171,7 +171,7 @@ public class InfinityChestScreen extends GuiContainer {
       int i3 = this.returningStackDestSlot.yPos - this.touchUpY;
       int l1 = this.touchUpX + (int)((float)l2 * f);
       int i2 = this.touchUpY + (int)((float)i3 * f);
-      this.drawItemStack(this.returningStack, l1, i2, (String)null);
+      this.drawItemStack(this.returningStack, l1, i2, null);
     }
 
     GlStateManager.popMatrix();
@@ -351,7 +351,7 @@ public class InfinityChestScreen extends GuiContainer {
       }
 
       if (this.mc.gameSettings.touchscreen && flag1 && this.mc.player.inventory.getItemStack().isEmpty()) {
-        this.mc.displayGuiScreen((GuiScreen)null);
+        this.mc.displayGuiScreen(null);
         return;
       }
 
@@ -523,13 +523,13 @@ public class InfinityChestScreen extends GuiContainer {
           this.clickedSlot = null;
         }
       } else if (this.dragSplitting && !this.dragSplittingSlots.isEmpty()) {
-        this.handleMouseClick((Slot)null, -999, Container.getQuickcraftMask(0, this.dragSplittingLimit), ClickType.QUICK_CRAFT);
+        this.handleMouseClick(null, -999, Container.getQuickcraftMask(0, this.dragSplittingLimit), ClickType.QUICK_CRAFT);
 
         for (Slot slot1 : this.dragSplittingSlots) {
           this.handleMouseClick(slot1, slot1.slotNumber, Container.getQuickcraftMask(1, this.dragSplittingLimit), ClickType.QUICK_CRAFT);
         }
 
-        this.handleMouseClick((Slot)null, -999, Container.getQuickcraftMask(2, this.dragSplittingLimit), ClickType.QUICK_CRAFT);
+        this.handleMouseClick(null, -999, Container.getQuickcraftMask(2, this.dragSplittingLimit), ClickType.QUICK_CRAFT);
       } else if (!this.mc.player.inventory.getItemStack().isEmpty()) {
         if (this.mc.gameSettings.keyBindPickBlock.isActiveAndMatches(state - 100)) {
           this.handleMouseClick(slot, k, state, ClickType.CLONE);
@@ -585,12 +585,6 @@ public class InfinityChestScreen extends GuiContainer {
     }
 
     return false;
-  }
-
-  @Override
-  @javax.annotation.Nullable
-  public Slot getSlotUnderMouse() {
-    return this.hoveredSlot;
   }
 
   @Override

@@ -51,7 +51,7 @@ public class InfinityStorage {
 
   @SubscribeEvent
   public static void registerItems(RegistryEvent.Register<Item> event) {
-    event.getRegistry().register(new ItemUltimateBag().setCreativeTab(InfinityStorage.tab).setRegistryName("ultimate_bag").setTranslationKey(MODID+":ultimate_bag"));
+    event.getRegistry().register(new ItemUltimateBag().setCreativeTab(InfinityStorage.tab).setRegistryName("ultimate_bag").setTranslationKey(MODID+":ultimate_bag").setMaxStackSize(1));
     event.getRegistry().register((new ItemBlock(InfinityStorage.Objects.ultimate_chest)).setRegistryName(InfinityStorage.Objects.ultimate_chest.getRegistryName()));
     GameRegistry.registerTileEntity(TileInfiniteStorage.class, InfinityStorage.Objects.ultimate_chest.getRegistryName());
   }

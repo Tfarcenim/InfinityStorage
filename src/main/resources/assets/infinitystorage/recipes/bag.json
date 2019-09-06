@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ddd",
+    "dcd",
+    "ddd"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "infinitystorage:ultimate_chest"
+      }
+    ],
+    "d": [
+      {
+        "item": "minecraft:shulker_shell"
+      }
+    ]
+  },
+  "result": {
+    "item": "infinitystorage:ultimate_bag"
+  }
+}

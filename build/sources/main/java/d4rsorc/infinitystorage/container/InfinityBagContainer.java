@@ -25,7 +25,7 @@ public class InfinityBagContainer extends Container {
   /** The current drag event (0 : start, 1 : add slot : 2 : end) */
   protected int dragEvent;
   /** The list of slots where the itemstack holds will be distributed */
-  protected final Set<Slot> dragSlots = Sets.<Slot>newHashSet();
+  protected final Set<Slot> dragSlots = Sets.newHashSet();
 
   public InfinityBagContainer(InfinityBagHandler handler, EntityPlayer player) {
     this.handler = handler;
@@ -33,7 +33,7 @@ public class InfinityBagContainer extends Container {
     addPlayerSlots(player.inventory);
   }
 
-  protected void addPlayerSlots(IInventory playerinventory) {
+  protected void addPlayerSlots(InventoryPlayer playerinventory) {
     for (int row = 0; row < 3; ++row) {
       for (int col = 0; col < 9; ++col) {
         int x = 8 + col * 18;
@@ -50,7 +50,15 @@ public class InfinityBagContainer extends Container {
     for (int row = 0; row < 9; ++row) {
       int x = 8 + row * 18;
       int y = 142;
+      if (row != playerinventory.currentItem)
       this.addSlotToContainer(new Slot(playerinventory, row, x, y) {
+        @Override
+        public int getItemStackLimit(ItemStack stack) {
+          return Math.min(this.getSlotStackLimit(), stack.getMaxStackSize());
+        }
+      });
+      else
+      this.addSlotToContainer(new LockedSlot(playerinventory, row, x, y) {
         @Override
         public int getItemStackLimit(ItemStack stack) {
           return Math.min(this.getSlotStackLimit(), stack.getMaxStackSize());

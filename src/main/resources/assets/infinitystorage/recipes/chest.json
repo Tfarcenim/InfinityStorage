@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ndn",
+    "dcd",
+    "ndn"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "minecraft:chest"
+      }
+    ],
+    "d": [
+      {
+        "item": "minecraft:diamond_block"
+      }
+    ],
+    "n": [
+      {
+        "item": "minecraft:nether_star"
+      }
+    ]
+  },
+  "result": {
+    "item": "infinitystorage:ultimate_chest"
+  }
+}
