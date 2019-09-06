@@ -1,8 +1,0 @@
-{
-  "minecraft:recipes/building_blocks/polished_granite": {
-    "criteria": {
-      "has_stone": "2019-08-10 00:25:09 -0400"
-    },
-    "done": true
-  }
-}
