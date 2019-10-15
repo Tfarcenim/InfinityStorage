@@ -1,0 +1,6 @@
+{
+    "parent": "infinitystorage:item/ultimate_bag",
+    "textures": {
+        "layer0": "infinitystorage:items/ultimate_bag_open"
+    }
+}
