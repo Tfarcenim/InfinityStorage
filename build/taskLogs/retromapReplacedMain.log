@@ -261,63 +261,63 @@ Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/st
 Rename field net/minecraft/block/Block/blockState[1851,1861]::blockState->field_176227_L
 Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[1866,1878]::getBaseState->func_177621_b
 Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1882,1894]::withProperty->func_177226_a
-Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[1955,1969]::getBoundingBox->func_185496_a
-Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2083,2095]::isOpaqueCube->func_149662_c
-Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2162,2172]::isFullCube->func_149686_d
-Rename method net/minecraft/block/Block/hasCustomBreakingProgress (Lnet/minecraft/block/state/IBlockState;)Z[2267,2292]::hasCustomBreakingProgress->func_190946_v
-Rename method net/minecraft/block/Block/getRenderType (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;[2357,2370]::getRenderType->func_149645_b
-Rename method net/minecraft/block/Block/canSilkHarvest ()Z[2474,2488]::canSilkHarvest->func_149700_E
-Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[2539,2559]::getStateForPlacement->func_180642_a
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2691,2706]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2707,2719]::withProperty->func_177226_a
-Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[2736,2755]::getHorizontalFacing->func_174811_aO
-Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[2753,2764]::getOpposite->func_176734_d
-Rename method net/minecraft/block/Block/onBlockPlacedBy (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V[2793,2808]::onBlockPlacedBy->func_180633_a
-Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[2912,2925]::setBlockState->func_180501_a
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2937,2949]::withProperty->func_177226_a
-Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[2966,2985]::getHorizontalFacing->func_174811_aO
-Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[2983,2994]::getOpposite->func_176734_d
-Rename method net/minecraft/block/Block/breakBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[3029,3039]::breakBlock->func_180663_b
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3110,3123]::getTileEntity->func_175625_s
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3242,3255]::getTileEntity->func_175625_s
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2096,2110]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2224,2236]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2303,2313]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/hasCustomBreakingProgress (Lnet/minecraft/block/state/IBlockState;)Z[2408,2433]::hasCustomBreakingProgress->func_190946_v
+Rename method net/minecraft/block/Block/getRenderType (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;[2498,2511]::getRenderType->func_149645_b
+Rename method net/minecraft/block/Block/canSilkHarvest ()Z[2615,2629]::canSilkHarvest->func_149700_E
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[2680,2700]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2832,2847]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2848,2860]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[2877,2896]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[2894,2905]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/onBlockPlacedBy (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V[2934,2949]::onBlockPlacedBy->func_180633_a
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[3053,3066]::setBlockState->func_180501_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3078,3090]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[3107,3126]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[3124,3135]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/breakBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[3170,3180]::breakBlock->func_180663_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3251,3264]::getTileEntity->func_175625_s
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3383,3396]::getTileEntity->func_175625_s
 New Key: class d4rsorc/infinitystorage/InfinityStorage
-Rename method net/minecraft/util/math/Vec3i/getX ()I[3469,3473]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[3489,3493]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[3509,3513]::getZ->func_177952_p
-Rename field net/minecraft/world/World/isRemote[3552,3560]::isRemote->field_72995_K
-Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[3580,3591]::spawnEntity->func_72838_d
-Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[3649,3663]::getItemDropped->func_180660_a
-Rename field net/minecraft/init/Items/AIR[3728,3731]::AIR->field_190931_a
-Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[3769,3785]::onBlockActivated->func_180639_a
-Rename field net/minecraft/world/World/isRemote[3943,3951]::isRemote->field_72995_K
-Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4033,4046]::getTileEntity->func_175625_s
-Rename method net/minecraft/util/math/Vec3i/getX ()I[4177,4181]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[4198,4202]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[4219,4223]::getZ->func_177952_p
-Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4522,4538]::getStateFromMeta->func_176203_a
-Rename method net/minecraft/util/EnumFacing/byIndex (I)Lnet/minecraft/util/EnumFacing;[4588,4595]::byIndex->func_82600_a
-Rename method net/minecraft/util/EnumFacing/getAxis ()Lnet/minecraft/util/EnumFacing$Axis;[4628,4635]::getAxis->func_176740_k
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4721,4736]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4737,4749]::withProperty->func_177226_a
-Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4793,4809]::getMetaFromState->func_176201_c
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4846,4854]::getValue->func_177229_b
-Rename method net/minecraft/util/EnumFacing/getIndex ()I[4868,4876]::getIndex->func_176745_a
-Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4914,4926]::withRotation->func_185499_a
-Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4981,4993]::withProperty->func_177226_a
-Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[5007,5013]::rotate->func_185831_a
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5027,5035]::getValue->func_177229_b
-Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[5081,5091]::withMirror->func_185471_a
-Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[5151,5163]::withRotation->func_185907_a
-Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[5174,5184]::toRotation->func_185800_a
-Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5194,5202]::getValue->func_177229_b
-Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[5259,5275]::createBlockState->func_180661_e
-Rename method net/minecraft/block/Block/getBlockFaceShape (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;[5360,5377]::getBlockFaceShape->func_193383_a
-Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[5547,5561]::addInformation->func_190948_a
-Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[5854,5864]::writeToNBT->func_189515_b
-Rename method net/minecraft/item/ItemStack/setTagInfo (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[5902,5912]::setTagInfo->func_77983_a
-Rename method net/minecraft/nbt/NBTTagList/appendTag (Lnet/minecraft/nbt/NBTBase;)V[6073,6082]::appendTag->func_74742_a
-Rename method net/minecraft/nbt/NBTTagCompound/setTag (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[6136,6142]::setTag->func_74782_a
-Rename method net/minecraft/item/ItemStack/setTagInfo (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[6181,6191]::setTagInfo->func_77983_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3610,3614]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3630,3634]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[3650,3654]::getZ->func_177952_p
+Rename field net/minecraft/world/World/isRemote[3693,3701]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[3721,3732]::spawnEntity->func_72838_d
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[3790,3804]::getItemDropped->func_180660_a
+Rename field net/minecraft/init/Items/AIR[3869,3872]::AIR->field_190931_a
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[3910,3926]::onBlockActivated->func_180639_a
+Rename field net/minecraft/world/World/isRemote[4084,4092]::isRemote->field_72995_K
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[4174,4187]::getTileEntity->func_175625_s
+Rename method net/minecraft/util/math/Vec3i/getX ()I[4318,4322]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[4339,4343]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[4360,4364]::getZ->func_177952_p
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4663,4679]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/util/EnumFacing/byIndex (I)Lnet/minecraft/util/EnumFacing;[4729,4736]::byIndex->func_82600_a
+Rename method net/minecraft/util/EnumFacing/getAxis ()Lnet/minecraft/util/EnumFacing$Axis;[4769,4776]::getAxis->func_176740_k
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4862,4877]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4878,4890]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4934,4950]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4987,4995]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[5009,5017]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[5055,5067]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[5122,5134]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[5148,5154]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5168,5176]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[5222,5232]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[5292,5304]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[5315,5325]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5335,5343]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[5400,5416]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/getBlockFaceShape (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;[5501,5518]::getBlockFaceShape->func_193383_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[5688,5702]::addInformation->func_190948_a
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[5995,6005]::writeToNBT->func_189515_b
+Rename method net/minecraft/item/ItemStack/setTagInfo (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[6043,6053]::setTagInfo->func_77983_a
+Rename method net/minecraft/nbt/NBTTagList/appendTag (Lnet/minecraft/nbt/NBTBase;)V[6214,6223]::appendTag->func_74742_a
+Rename method net/minecraft/nbt/NBTTagCompound/setTag (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[6277,6283]::setTag->func_74782_a
+Rename method net/minecraft/item/ItemStack/setTagInfo (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[6322,6332]::setTagInfo->func_77983_a
 Import: d4rsorc.infinitystorage.InfinityStorage
 Import: d4rsorc.infinitystorage.tile.TileInfiniteStorage
 Import: net.minecraft.block.Block
@@ -704,8 +704,6 @@ Rename method net/minecraft/network/NetHandlerPlayServer/sendPacket (Lnet/minecr
 Rename field net/minecraft/entity/player/EntityPlayer/inventory[20718,20727]::inventory->field_71071_by
 Rename method net/minecraft/entity/player/InventoryPlayer/getItemStack ()Lnet/minecraft/item/ItemStack;[20733,20745]::getItemStack->func_70445_o
 Rename field net/minecraft/inventory/Container/windowId[20910,20918]::windowId->field_75152_c
-Rename method net/minecraft/inventory/Container/setCanCraft (Lnet/minecraft/entity/player/EntityPlayer;Z)V[20983,20994]::setCanCraft->func_75128_a
-Rename method net/minecraft/inventory/Container/setCanCraft (Lnet/minecraft/entity/player/EntityPlayer;Z)V[21048,21059]::setCanCraft->func_75128_a
 Import: com.google.common.collect.Sets
 Import: d4rsorc.infinitystorage.InfinityBagHandler
 Import: d4rsorc.infinitystorage.InfinityHandler
@@ -2102,59 +2100,33 @@ Adding 11 imports
 End  Processing: d4rsorc/infinitystorage/network/MessageSyncExtendedSlotContents.java
 
 Start Processing: d4rsorc/infinitystorage/network/NetworkUtils.java
-Rename method net/minecraft/nbt/CompressedStreamTools/write (Lnet/minecraft/nbt/NBTTagCompound;Ljava/io/DataOutput;)V[746,751]::write->func_74800_a
-Rename method net/minecraft/nbt/CompressedStreamTools/read (Ljava/io/DataInput;Lnet/minecraft/nbt/NBTSizeTracker;)Lnet/minecraft/nbt/NBTTagCompound;[1163,1167]::read->func_152456_a
-Rename method net/minecraft/item/ItemStack/isEmpty ()Z[1450,1457]::isEmpty->func_190926_b
-Rename method net/minecraft/item/Item/getIdFromItem (Lnet/minecraft/item/Item;)I[1537,1550]::getIdFromItem->func_150891_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1557,1564]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getCount ()I[1603,1611]::getCount->func_190916_E
-Rename method net/minecraft/item/ItemStack/getMetadata ()I[1649,1660]::getMetadata->func_77960_j
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1730,1737]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/isDamageable ()Z[1745,1757]::isDamageable->func_77645_m
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1769,1776]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/getShareTag ()Z[1784,1795]::getShareTag->func_77651_p
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1834,1841]::getItem->func_77973_b
-Rename method net/minecraft/network/PacketBuffer/writeCompoundTag (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/network/PacketBuffer;[1894,1910]::writeCompoundTag->func_150786_a
-Rename method net/minecraft/item/ItemStack/isEmpty ()Z[2031,2038]::isEmpty->func_190926_b
-Rename method net/minecraft/item/Item/getIdFromItem (Lnet/minecraft/item/Item;)I[2114,2127]::getIdFromItem->func_150891_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2134,2141]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getCount ()I[2178,2186]::getCount->func_190916_E
-Rename method net/minecraft/item/ItemStack/getMetadata ()I[2222,2233]::getMetadata->func_77960_j
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2303,2310]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/isDamageable ()Z[2318,2330]::isDamageable->func_77645_m
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2342,2349]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/getShareTag ()Z[2357,2368]::getShareTag->func_77651_p
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2407,2414]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/isEmpty ()Z[2618,2625]::isEmpty->func_190926_b
-Rename method net/minecraft/item/Item/getIdFromItem (Lnet/minecraft/item/Item;)I[2701,2714]::getIdFromItem->func_150891_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2721,2728]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getCount ()I[2765,2773]::getCount->func_190916_E
-Rename method net/minecraft/item/ItemStack/getMetadata ()I[2809,2820]::getMetadata->func_77960_j
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2890,2897]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/isDamageable ()Z[2905,2917]::isDamageable->func_77645_m
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2929,2936]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/getShareTag ()Z[2944,2955]::getShareTag->func_77651_p
-Rename method net/minecraft/item/ItemStack/getTagCompound ()Lnet/minecraft/nbt/NBTTagCompound;[2994,3008]::getTagCompound->func_77978_p
-Rename method net/minecraft/item/ItemStack/isEmpty ()Z[3188,3195]::isEmpty->func_190926_b
-Rename method net/minecraft/item/Item/getIdFromItem (Lnet/minecraft/item/Item;)I[3275,3288]::getIdFromItem->func_150891_b
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3295,3302]::getItem->func_77973_b
-Rename method net/minecraft/item/ItemStack/getCount ()I[3341,3349]::getCount->func_190916_E
-Rename method net/minecraft/item/ItemStack/getMetadata ()I[3387,3398]::getMetadata->func_77960_j
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3468,3475]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/isDamageable ()Z[3483,3495]::isDamageable->func_77645_m
-Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[3507,3514]::getItem->func_77973_b
-Rename method net/minecraft/item/Item/getShareTag ()Z[3522,3533]::getShareTag->func_77651_p
-Rename method net/minecraft/item/ItemStack/getTagCompound ()Lnet/minecraft/nbt/NBTTagCompound;[3572,3586]::getTagCompound->func_77978_p
-Rename method net/minecraft/network/PacketBuffer/writeCompoundTag (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/network/PacketBuffer;[3610,3626]::writeCompoundTag->func_150786_a
-Rename field net/minecraft/item/ItemStack/EMPTY[3810,3815]::EMPTY->field_190927_a
-Rename method net/minecraft/item/Item/getItemById (I)Lnet/minecraft/item/Item;[3948,3959]::getItemById->func_150899_d
-Rename method net/minecraft/item/ItemStack/setTagCompound (Lnet/minecraft/nbt/NBTTagCompound;)V[3990,4004]::setTagCompound->func_77982_d
-Rename field net/minecraft/item/ItemStack/EMPTY[4219,4224]::EMPTY->field_190927_a
-Rename method net/minecraft/item/Item/getItemById (I)Lnet/minecraft/item/Item;[4361,4372]::getItemById->func_150899_d
-Rename method net/minecraft/item/ItemStack/setTagCompound (Lnet/minecraft/nbt/NBTTagCompound;)V[4403,4417]::setTagCompound->func_77982_d
-Rename method net/minecraft/network/PacketBuffer/readCompoundTag ()Lnet/minecraft/nbt/NBTTagCompound;[4420,4435]::readCompoundTag->func_150793_b
+Rename method net/minecraft/nbt/CompressedStreamTools/write (Lnet/minecraft/nbt/NBTTagCompound;Ljava/io/DataOutput;)V[702,707]::write->func_74800_a
+Rename method net/minecraft/nbt/CompressedStreamTools/read (Ljava/io/DataInput;Lnet/minecraft/nbt/NBTSizeTracker;)Lnet/minecraft/nbt/NBTTagCompound;[1119,1123]::read->func_152456_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[1401,1408]::isEmpty->func_190926_b
+Rename method net/minecraft/item/Item/getIdFromItem (Lnet/minecraft/item/Item;)I[1484,1497]::getIdFromItem->func_150891_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1504,1511]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getCount ()I[1548,1556]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1592,1603]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1673,1680]::getItem->func_77973_b
+Rename method net/minecraft/item/Item/isDamageable ()Z[1688,1700]::isDamageable->func_77645_m
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1712,1719]::getItem->func_77973_b
+Rename method net/minecraft/item/Item/getShareTag ()Z[1727,1738]::getShareTag->func_77651_p
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1777,1784]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[1988,1995]::isEmpty->func_190926_b
+Rename method net/minecraft/item/Item/getIdFromItem (Lnet/minecraft/item/Item;)I[2071,2084]::getIdFromItem->func_150891_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2091,2098]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getCount ()I[2135,2143]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[2179,2190]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2260,2267]::getItem->func_77973_b
+Rename method net/minecraft/item/Item/isDamageable ()Z[2275,2287]::isDamageable->func_77645_m
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2299,2306]::getItem->func_77973_b
+Rename method net/minecraft/item/Item/getShareTag ()Z[2314,2325]::getShareTag->func_77651_p
+Rename method net/minecraft/item/ItemStack/getTagCompound ()Lnet/minecraft/nbt/NBTTagCompound;[2364,2378]::getTagCompound->func_77978_p
+Rename field net/minecraft/item/ItemStack/EMPTY[2598,2603]::EMPTY->field_190927_a
+Rename method net/minecraft/item/Item/getItemById (I)Lnet/minecraft/item/Item;[2736,2747]::getItemById->func_150899_d
+Rename method net/minecraft/item/ItemStack/setTagCompound (Lnet/minecraft/nbt/NBTTagCompound;)V[2778,2792]::setTagCompound->func_77982_d
 Import: java.io.IOException
-Adding 11 imports
+Adding 10 imports
         io.netty.buffer.ByteBuf
         io.netty.buffer.ByteBufInputStream
         io.netty.buffer.ByteBufOutputStream
@@ -2165,7 +2137,6 @@ Adding 11 imports
         net.minecraft.nbt.CompressedStreamTools
         net.minecraft.nbt.NBTSizeTracker
         net.minecraft.nbt.NBTTagCompound
-        net.minecraft.network.PacketBuffer
 End  Processing: d4rsorc/infinitystorage/network/NetworkUtils.java
 
 Start Processing: d4rsorc/infinitystorage/network/PacketHandler.java

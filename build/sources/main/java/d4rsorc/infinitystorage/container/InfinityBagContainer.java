@@ -533,10 +533,4 @@ public class InfinityBagContainer extends Container {
   public void syncSlot(EntityPlayerMP player, int slot, ItemStack stack) {
     PacketHandler.INSTANCE.sendTo(new MessageSyncExtendedSlotContents(this.windowId, slot, stack), player);
   }
-
-  @Override
-  public void setCanCraft(EntityPlayer player, boolean canCraft) {
-    super.setCanCraft(player, canCraft);
-  }
-
 }

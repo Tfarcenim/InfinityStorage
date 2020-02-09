@@ -814,7 +814,7 @@ Class Start: d4rsorc.infinitystorage.RenderItemExtended
 Class End  : d4rsorc.infinitystorage.RenderItemExtended
 endProcessing "d4rsorc/infinitystorage/RenderItemExtended.java"
 
-startProcessing "d4rsorc/infinitystorage/block/BlockUltimateChest.java" md5: c90196e28ecc18966cea36d0f3141f5b
+startProcessing "d4rsorc/infinitystorage/block/BlockUltimateChest.java" md5: 36d394782e491c2562d5307fd0e4bc0a
 @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|119|148|d4rsorc.infinitystorage.block|package|d4rsorc.infinitystorage.block|(file)
 Class Start: d4rsorc.infinitystorage.block.BlockUltimateChest
    @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1500|1518|BlockUltimateChest|class|d4rsorc.infinitystorage.block.BlockUltimateChest|false
@@ -840,308 +840,320 @@ Class Start: d4rsorc.infinitystorage.block.BlockUltimateChest
       @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1882|1892|EnumFacing|class|net.minecraft.util.EnumFacing|false
       @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1893|1898|NORTH|field|net.minecraft.util.EnumFacing|NORTH
    Method End: BlockUltimateChest()V
+   Method Start: canSilkHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1961|1966|world|param|d4rsorc.infinitystorage.block.BlockUltimateChest|canSilkHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z|world|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1977|1980|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|canSilkHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1994|1999|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|canSilkHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z|state|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2014|2020|player|param|d4rsorc.infinitystorage.block.BlockUltimateChest|canSilkHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z|player|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1913|1921|Override|class|java.lang.Override|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1940|1954|canSilkHarvest|method|net.minecraft.block.Block|canSilkHarvest|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1955|1960|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1968|1976|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1982|1993|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2001|2013|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+   Method End: canSilkHarvest(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;)Z
    Method Start: getBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1960|1965|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1980|1986|source|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|source|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1997|2000|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|pos|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1919|1932|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1933|1947|getBoundingBox|method|net.minecraft.block.Block|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1948|1959|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1967|1979|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|1988|1996|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2016|2035|ULTIMATE_CHEST_AABB|field|d4rsorc.infinitystorage.block.BlockUltimateChest|ULTIMATE_CHEST_AABB
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2101|2106|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2121|2127|source|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|source|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2138|2141|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;|pos|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2060|2073|AxisAlignedBB|class|net.minecraft.util.math.AxisAlignedBB|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2074|2088|getBoundingBox|method|net.minecraft.block.Block|getBoundingBox|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2089|2100|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2108|2120|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2129|2137|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2157|2176|ULTIMATE_CHEST_AABB|field|d4rsorc.infinitystorage.block.BlockUltimateChest|ULTIMATE_CHEST_AABB
    Method End: getBoundingBox(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;
    Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2087|2092|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2062|2074|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2075|2086|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2228|2233|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2203|2215|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2216|2227|IBlockState|class|net.minecraft.block.state.IBlockState|false
    Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
    Method Start: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2163|2168|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2140|2150|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2151|2162|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2304|2309|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2281|2291|isFullCube|method|net.minecraft.block.Block|isFullCube|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2292|2303|IBlockState|class|net.minecraft.block.state.IBlockState|false
    Method End: isFullCube(Lnet/minecraft/block/state/IBlockState;)Z
    Method Start: hasCustomBreakingProgress(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2280|2285|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|hasCustomBreakingProgress|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2202|2210|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2211|2215|Side|class|net.minecraftforge.fml.relauncher.Side|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2216|2222|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2242|2267|hasCustomBreakingProgress|method|net.minecraft.block.Block|hasCustomBreakingProgress|(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2268|2279|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2421|2426|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|hasCustomBreakingProgress|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2343|2351|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2352|2356|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2357|2363|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2383|2408|hasCustomBreakingProgress|method|net.minecraft.block.Block|hasCustomBreakingProgress|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2409|2420|IBlockState|class|net.minecraft.block.state.IBlockState|false
    Method End: hasCustomBreakingProgress(Lnet/minecraft/block/state/IBlockState;)Z
    Method Start: getRenderType(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2370|2375|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getRenderType|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2324|2343|EnumBlockRenderType|class|net.minecraft.util.EnumBlockRenderType|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2344|2357|getRenderType|method|net.minecraft.block.Block|getRenderType|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2358|2369|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2391|2410|EnumBlockRenderType|class|net.minecraft.util.EnumBlockRenderType|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2411|2431|ENTITYBLOCK_ANIMATED|field|net.minecraft.util.EnumBlockRenderType|ENTITYBLOCK_ANIMATED
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2511|2516|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getRenderType|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2465|2484|EnumBlockRenderType|class|net.minecraft.util.EnumBlockRenderType|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2485|2498|getRenderType|method|net.minecraft.block.Block|getRenderType|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2499|2510|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2532|2551|EnumBlockRenderType|class|net.minecraft.util.EnumBlockRenderType|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2552|2572|ENTITYBLOCK_ANIMATED|field|net.minecraft.util.EnumBlockRenderType|ENTITYBLOCK_ANIMATED
    Method End: getRenderType(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;
    Method Start: canSilkHarvest()Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2461|2475|canSilkHarvest|method|net.minecraft.block.Block|canSilkHarvest|()Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2602|2616|canSilkHarvest|method|net.minecraft.block.Block|canSilkHarvest|()Z
    Method End: canSilkHarvest()Z
    Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2554|2561|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2572|2575|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2588|2594|facing|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2602|2606|hitX|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2614|2618|hitY|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2626|2630|hitZ|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2636|2640|meta|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2659|2665|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2515|2526|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2527|2547|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2548|2553|World|class|net.minecraft.world.World|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2563|2571|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2577|2587|EnumFacing|class|net.minecraft.util.EnumFacing|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2642|2658|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2686|2701|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2704|2716|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2717|2723|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2725|2731|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2732|2751|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2754|2765|getOpposite|method|net.minecraft.util.EnumFacing|getOpposite|()Lnet/minecraft/util/EnumFacing;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2695|2702|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2713|2716|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2729|2735|facing|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2743|2747|hitX|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2755|2759|hitY|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2767|2771|hitZ|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2777|2781|meta|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2800|2806|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2656|2667|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2668|2688|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2689|2694|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2704|2712|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2718|2728|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2783|2799|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2827|2842|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2845|2857|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2858|2864|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2866|2872|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2873|2892|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2895|2906|getOpposite|method|net.minecraft.util.EnumFacing|getOpposite|()Lnet/minecraft/util/EnumFacing;
    Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;
    Method Start: onBlockPlacedBy(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2814|2821|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2832|2835|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2849|2854|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|state|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2873|2879|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|placer|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2891|2896|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|stack|4
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2792|2807|onBlockPlacedBy|method|net.minecraft.block.Block|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2808|2813|World|class|net.minecraft.world.World|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2823|2831|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2837|2848|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2856|2872|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2881|2890|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2905|2912|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2913|2926|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2927|2930|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2932|2937|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|state|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2938|2950|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2951|2957|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2959|2965|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|placer|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2966|2985|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2988|2999|getOpposite|method|net.minecraft.util.EnumFacing|getOpposite|()Lnet/minecraft/util/EnumFacing;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2955|2962|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2973|2976|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2990|2995|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|state|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3014|3020|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|placer|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3032|3037|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|stack|4
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2933|2948|onBlockPlacedBy|method|net.minecraft.block.Block|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2949|2954|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2964|2972|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2978|2989|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|2997|3013|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3022|3031|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3046|3053|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3054|3067|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3068|3071|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3073|3078|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|state|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3079|3091|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3092|3098|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3100|3106|placer|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockPlacedBy|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V|placer|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3107|3126|getHorizontalFacing|method|net.minecraft.entity.Entity|getHorizontalFacing|()Lnet/minecraft/util/EnumFacing;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3129|3140|getOpposite|method|net.minecraft.util.EnumFacing|getOpposite|()Lnet/minecraft/util/EnumFacing;
    Method End: onBlockPlacedBy(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V
    Method Start: breakBlock(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3049|3056|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3067|3070|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3084|3089|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3032|3042|breakBlock|method|net.minecraft.block.Block|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3043|3048|World|class|net.minecraft.world.World|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3058|3066|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3072|3083|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3102|3109|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3110|3123|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3124|3127|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3140|3159|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3170|3189|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3214|3233|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3234|3241|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3242|3255|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3256|3259|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3269|3278|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3291|3300|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3301|3324|InfinityStorage.Objects|class|d4rsorc.infinitystorage.InfinityStorage.Objects|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3325|3339|ultimate_chest|field|d4rsorc.infinitystorage.InfinityStorage.Objects|ultimate_chest
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3349|3358|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3368|3382|storeTEInStack|method|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3417|3427|EntityItem|class|net.minecraft.entity.item.EntityItem|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3446|3456|EntityItem|class|net.minecraft.entity.item.EntityItem|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3457|3464|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3465|3468|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3469|3473|getX|method|net.minecraft.util.math.Vec3i|getX|()I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3476|3479|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3480|3484|getY|method|net.minecraft.util.math.Vec3i|getY|()I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3487|3490|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3491|3495|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3517|3524|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3525|3533|isRemote|field|net.minecraft.world.World|isRemote
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3540|3547|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3548|3559|spawnEntity|method|net.minecraft.world.World|spawnEntity|(Lnet/minecraft/entity/Entity;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3190|3197|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3208|3211|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3225|3230|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3173|3183|breakBlock|method|net.minecraft.block.Block|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3184|3189|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3199|3207|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3213|3224|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3243|3250|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3251|3264|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3265|3268|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3281|3300|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3311|3330|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3355|3374|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3375|3382|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3383|3396|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3397|3400|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3410|3419|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3432|3441|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3442|3465|InfinityStorage.Objects|class|d4rsorc.infinitystorage.InfinityStorage.Objects|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3466|3480|ultimate_chest|field|d4rsorc.infinitystorage.InfinityStorage.Objects|ultimate_chest
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3490|3499|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3509|3523|storeTEInStack|method|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3558|3568|EntityItem|class|net.minecraft.entity.item.EntityItem|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3587|3597|EntityItem|class|net.minecraft.entity.item.EntityItem|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3598|3605|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3606|3609|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3610|3614|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3617|3620|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3621|3625|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3628|3631|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3632|3636|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3658|3665|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3666|3674|isRemote|field|net.minecraft.world.World|isRemote
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3681|3688|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|breakBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3689|3700|spawnEntity|method|net.minecraft.world.World|spawnEntity|(Lnet/minecraft/entity/Entity;)Z
    Method End: breakBlock(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
    Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3643|3648|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3657|3661|rand|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3667|3674|fortune|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3592|3600|Override|class|java.lang.Override|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3611|3615|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3616|3630|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3631|3642|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3650|3656|Random|class|java.util.Random|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3690|3695|Items|class|net.minecraft.init.Items|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3696|3699|AIR|field|net.minecraft.init.Items|AIR
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3784|3789|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3798|3802|rand|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3808|3815|fortune|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3733|3741|Override|class|java.lang.Override|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3752|3756|Item|class|net.minecraft.item.Item|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3757|3771|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3772|3783|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3791|3797|Random|class|java.util.Random|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3831|3836|Items|class|net.minecraft.init.Items|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3837|3840|AIR|field|net.minecraft.init.Items|AIR
    Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
    Method Start: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3749|3756|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3767|3770|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3784|3789|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3804|3812|playerIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3823|3827|hand|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3840|3846|facing|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|facing|5
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3854|3858|hitX|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|6
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3866|3870|hitY|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|7
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3878|3882|hitZ|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|8
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3726|3742|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3743|3748|World|class|net.minecraft.world.World|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3758|3766|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3772|3783|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3791|3803|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3814|3822|EnumHand|class|net.minecraft.util.EnumHand|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3829|3839|EnumFacing|class|net.minecraft.util.EnumFacing|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3895|3902|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3903|3911|isRemote|field|net.minecraft.world.World|isRemote
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3956|3966|TileEntity|class|net.minecraft.tileentity.TileEntity|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3980|3987|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3988|4001|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4002|4005|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4041|4060|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4073|4081|playerIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4082|4089|openGui|method|net.minecraft.entity.player.EntityPlayer|openGui|(Ljava/lang/Object;ILnet/minecraft/world/World;III)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4090|4105|InfinityStorage|class|d4rsorc.infinitystorage.InfinityStorage|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4106|4114|instance|field|d4rsorc.infinitystorage.InfinityStorage|instance
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4119|4126|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4128|4131|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4132|4136|getX|method|net.minecraft.util.math.Vec3i|getX|()I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4140|4143|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4144|4148|getY|method|net.minecraft.util.math.Vec3i|getY|()I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4152|4155|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4156|4160|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3890|3897|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3908|3911|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3925|3930|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3945|3953|playerIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3964|3968|hand|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3981|3987|facing|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|facing|5
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3995|3999|hitX|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|6
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4007|4011|hitY|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|7
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4019|4023|hitZ|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitZ|8
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3867|3883|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3884|3889|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3899|3907|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3913|3924|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3932|3944|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3955|3963|EnumHand|class|net.minecraft.util.EnumHand|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|3970|3980|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4036|4043|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4044|4052|isRemote|field|net.minecraft.world.World|isRemote
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4097|4107|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4121|4128|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4129|4142|getTileEntity|method|net.minecraft.world.IBlockAccess|getTileEntity|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4143|4146|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4182|4201|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4214|4222|playerIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4223|4230|openGui|method|net.minecraft.entity.player.EntityPlayer|openGui|(Ljava/lang/Object;ILnet/minecraft/world/World;III)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4231|4246|InfinityStorage|class|d4rsorc.infinitystorage.InfinityStorage|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4247|4255|instance|field|d4rsorc.infinitystorage.InfinityStorage|instance
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4260|4267|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4269|4272|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4273|4277|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4281|4284|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4285|4289|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4293|4296|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4297|4301|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
    Method End: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
    Method Start: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4252|4257|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4226|4239|hasTileEntity|method|net.minecraft.block.Block|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4240|4251|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4393|4398|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4367|4380|hasTileEntity|method|net.minecraft.block.Block|hasTileEntity|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4381|4392|IBlockState|class|net.minecraft.block.state.IBlockState|false
    Method End: hasTileEntity(Lnet/minecraft/block/state/IBlockState;)Z
    Method Start: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4356|4361|world|param|d4rsorc.infinitystorage.block.BlockUltimateChest|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4375|4380|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4290|4298|Nullable|class|javax.annotation.Nullable|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4303|4311|Override|class|java.lang.Override|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4322|4332|TileEntity|class|net.minecraft.tileentity.TileEntity|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4333|4349|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4350|4355|World|class|net.minecraft.world.World|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4363|4374|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4400|4419|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4497|4502|world|param|d4rsorc.infinitystorage.block.BlockUltimateChest|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|world|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4516|4521|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;|state|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4431|4439|Nullable|class|javax.annotation.Nullable|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4444|4452|Override|class|java.lang.Override|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4463|4473|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4474|4490|createTileEntity|method|net.minecraft.block.Block|createTileEntity|(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4491|4496|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4504|4515|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4541|4560|TileInfiniteStorage|class|d4rsorc.infinitystorage.tile.TileInfiniteStorage|false
    Method End: createTileEntity(Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/tileentity/TileEntity;
    Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4471|4475|meta|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4438|4449|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4450|4466|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4484|4494|EnumFacing|class|net.minecraft.util.EnumFacing|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4508|4518|EnumFacing|class|net.minecraft.util.EnumFacing|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4519|4526|byIndex|method|net.minecraft.util.EnumFacing|byIndex|(I)Lnet/minecraft/util/EnumFacing;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4527|4531|meta|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4554|4561|getAxis|method|net.minecraft.util.EnumFacing|getAxis|()Lnet/minecraft/util/EnumFacing$Axis;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4567|4571|Axis|class|net.minecraft.util.EnumFacing.Axis|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4572|4573|Y|field|net.minecraft.util.EnumFacing.Axis|Y
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4597|4607|EnumFacing|class|net.minecraft.util.EnumFacing|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4608|4613|NORTH|field|net.minecraft.util.EnumFacing|NORTH
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4641|4656|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4659|4671|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4672|4678|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4612|4616|meta|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4579|4590|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4591|4607|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4625|4635|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4649|4659|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4660|4667|byIndex|method|net.minecraft.util.EnumFacing|byIndex|(I)Lnet/minecraft/util/EnumFacing;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4668|4672|meta|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4695|4702|getAxis|method|net.minecraft.util.EnumFacing|getAxis|()Lnet/minecraft/util/EnumFacing$Axis;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4708|4712|Axis|class|net.minecraft.util.EnumFacing.Axis|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4713|4714|Y|field|net.minecraft.util.EnumFacing.Axis|Y
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4738|4748|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4749|4754|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4782|4797|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4800|4812|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4813|4819|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
    Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
    Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4743|4748|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4714|4730|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4731|4742|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4764|4769|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4770|4778|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4779|4785|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4787|4795|getIndex|method|net.minecraft.util.EnumFacing|getIndex|()I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4884|4889|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4855|4871|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4872|4883|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4905|4910|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4911|4919|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4920|4926|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4928|4936|getIndex|method|net.minecraft.util.EnumFacing|getIndex|()I
    Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
    Method Start: withRotation(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4853|4858|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4869|4872|rot|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4816|4827|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4828|4840|withRotation|method|net.minecraft.block.Block|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4841|4852|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4860|4868|Rotation|class|net.minecraft.util.Rotation|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4888|4893|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4894|4906|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4907|4913|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4915|4918|rot|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4919|4925|rotate|method|net.minecraft.util.Rotation|rotate|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4926|4931|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4932|4940|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4941|4947|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4994|4999|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5010|5013|rot|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4957|4968|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4969|4981|withRotation|method|net.minecraft.block.Block|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4982|4993|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5001|5009|Rotation|class|net.minecraft.util.Rotation|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5029|5034|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5035|5047|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5048|5054|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5056|5059|rot|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|rot|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5060|5066|rotate|method|net.minecraft.util.Rotation|rotate|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5067|5072|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withRotation|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5073|5081|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5082|5088|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
    Method End: withRotation(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
    Method Start: withMirror(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5004|5009|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5018|5026|mirrorIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4969|4980|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4981|4991|withMirror|method|net.minecraft.block.Block|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|4992|5003|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5011|5017|Mirror|class|net.minecraft.util.Mirror|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5042|5047|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5048|5060|withRotation|method|net.minecraft.block.state.IBlockProperties|withRotation|(Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5061|5069|mirrorIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5070|5080|toRotation|method|net.minecraft.util.Mirror|toRotation|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5081|5086|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5087|5095|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5096|5102|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5145|5150|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5159|5167|mirrorIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5110|5121|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5122|5132|withMirror|method|net.minecraft.block.Block|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5133|5144|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5152|5158|Mirror|class|net.minecraft.util.Mirror|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5183|5188|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5189|5201|withRotation|method|net.minecraft.block.state.IBlockProperties|withRotation|(Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5202|5210|mirrorIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|mirrorIn|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5211|5221|toRotation|method|net.minecraft.util.Mirror|toRotation|(Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5222|5227|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|withMirror|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;|state|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5228|5236|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5237|5243|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
    Method End: withMirror(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;
    Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5127|5146|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5147|5163|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5184|5203|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5210|5216|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5268|5287|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5288|5304|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5325|5344|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5351|5357|FACING|field|d4rsorc.infinitystorage.block.BlockUltimateChest|FACING
    Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
    Method Start: getBlockFaceShape(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5282|5289|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|worldIn|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5303|5308|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|state|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5319|5322|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|pos|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5335|5339|face|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|face|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5236|5250|BlockFaceShape|class|net.minecraft.block.state.BlockFaceShape|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5251|5268|getBlockFaceShape|method|net.minecraft.block.Block|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5269|5281|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5291|5302|IBlockState|class|net.minecraft.block.state.IBlockState|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5310|5318|BlockPos|class|net.minecraft.util.math.BlockPos|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5324|5334|EnumFacing|class|net.minecraft.util.EnumFacing|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5355|5369|BlockFaceShape|class|net.minecraft.block.state.BlockFaceShape|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5370|5379|UNDEFINED|field|net.minecraft.block.state.BlockFaceShape|UNDEFINED
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5423|5430|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|worldIn|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5444|5449|state|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|state|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5460|5463|pos|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|pos|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5476|5480|face|param|d4rsorc.infinitystorage.block.BlockUltimateChest|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;|face|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5377|5391|BlockFaceShape|class|net.minecraft.block.state.BlockFaceShape|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5392|5409|getBlockFaceShape|method|net.minecraft.block.Block|getBlockFaceShape|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5410|5422|IBlockAccess|class|net.minecraft.world.IBlockAccess|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5432|5443|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5451|5459|BlockPos|class|net.minecraft.util.math.BlockPos|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5465|5475|EnumFacing|class|net.minecraft.util.EnumFacing|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5496|5510|BlockFaceShape|class|net.minecraft.block.state.BlockFaceShape|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5511|5520|UNDEFINED|field|net.minecraft.block.state.BlockFaceShape|UNDEFINED
    Method End: getBlockFaceShape(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/block/state/BlockFaceShape;
    Method Start: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5467|5472|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|stack|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5490|5497|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|worldIn|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5512|5519|tooltip|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|tooltip|2
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5534|5540|flagIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flagIn|3
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5392|5400|Override|class|java.lang.Override|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5405|5413|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5414|5418|Side|class|net.minecraftforge.fml.relauncher.Side|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5419|5425|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5442|5456|addInformation|method|net.minecraft.block.Block|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5457|5466|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5475|5483|Nullable|class|javax.annotation.Nullable|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5484|5489|World|class|net.minecraft.world.World|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5499|5503|List|class|java.util.List|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5504|5510|String|class|java.lang.String|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5521|5533|ITooltipFlag|class|net.minecraft.client.util.ITooltipFlag|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5608|5613|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|stack|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5631|5638|worldIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|worldIn|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5653|5660|tooltip|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|tooltip|2
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5675|5681|flagIn|param|d4rsorc.infinitystorage.block.BlockUltimateChest|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V|flagIn|3
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5533|5541|Override|class|java.lang.Override|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5546|5554|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5555|5559|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5560|5566|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5583|5597|addInformation|method|net.minecraft.block.Block|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5598|5607|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5616|5624|Nullable|class|javax.annotation.Nullable|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5625|5630|World|class|net.minecraft.world.World|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5640|5644|List|class|java.util.List|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5645|5651|String|class|java.lang.String|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5662|5674|ITooltipFlag|class|net.minecraft.client.util.ITooltipFlag|false
    Method End: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V
    Method Start: storeTEInStack(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5686|5691|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5704|5706|te|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|te|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5651|5660|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5661|5675|storeTEInStack|method|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5676|5685|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5693|5703|TileEntity|class|net.minecraft.tileentity.TileEntity|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5715|5729|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5747|5749|te|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|te|1
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5750|5760|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5765|5779|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5789|5794|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5795|5805|setTagInfo|method|net.minecraft.item.ItemStack|setTagInfo|(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5846|5860|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5883|5897|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5906|5916|NBTTagList|class|net.minecraft.nbt.NBTTagList|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5934|5944|NBTTagList|class|net.minecraft.nbt.NBTTagList|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5964|5973|appendTag|method|net.minecraft.nbt.NBTTagList|appendTag|(Lnet/minecraft/nbt/NBTBase;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5978|5990|NBTTagString|class|net.minecraft.nbt.NBTTagString|false
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6024|6030|setTag|method|net.minecraft.nbt.NBTTagCompound|setTag|(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6057|6062|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6063|6073|setTagInfo|method|net.minecraft.item.ItemStack|setTagInfo|(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V
-      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6115|6120|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5827|5832|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5845|5847|te|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|te|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5792|5801|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5802|5816|storeTEInStack|method|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5817|5826|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5834|5844|TileEntity|class|net.minecraft.tileentity.TileEntity|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5856|5870|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5888|5890|te|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|te|1
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5891|5901|writeToNBT|method|net.minecraft.tileentity.TileEntity|writeToNBT|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5906|5920|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5930|5935|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5936|5946|setTagInfo|method|net.minecraft.item.ItemStack|setTagInfo|(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|5987|6001|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6024|6038|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6047|6057|NBTTagList|class|net.minecraft.nbt.NBTTagList|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6075|6085|NBTTagList|class|net.minecraft.nbt.NBTTagList|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6105|6114|appendTag|method|net.minecraft.nbt.NBTTagList|appendTag|(Lnet/minecraft/nbt/NBTBase;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6119|6131|NBTTagString|class|net.minecraft.nbt.NBTTagString|false
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6165|6171|setTag|method|net.minecraft.nbt.NBTTagCompound|setTag|(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6198|6203|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6204|6214|setTagInfo|method|net.minecraft.item.ItemStack|setTagInfo|(Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V
+      @|d4rsorc/infinitystorage/block/BlockUltimateChest.java|6256|6261|stack|param|d4rsorc.infinitystorage.block.BlockUltimateChest|storeTEInStack|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;|stack|0
    Method End: storeTEInStack(Lnet/minecraft/item/ItemStack;Lnet/minecraft/tileentity/TileEntity;)Lnet/minecraft/item/ItemStack;
 Class End  : d4rsorc.infinitystorage.block.BlockUltimateChest
 endProcessing "d4rsorc/infinitystorage/block/BlockUltimateChest.java"
@@ -1298,7 +1310,7 @@ Class Start: d4rsorc.infinitystorage.container.BagSlotExtended
 Class End  : d4rsorc.infinitystorage.container.BagSlotExtended
 endProcessing "d4rsorc/infinitystorage/container/BagSlotExtended.java"
 
-startProcessing "d4rsorc/infinitystorage/container/InfinityBagContainer.java" md5: 680df3038f769e3b9c211e54684acf4f
+startProcessing "d4rsorc/infinitystorage/container/InfinityBagContainer.java" md5: a24bb2902f664a220a3016dbfa29a9c9
 @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|8|41|d4rsorc.infinitystorage.container|package|d4rsorc.infinitystorage.container|(file)
 Class Start: d4rsorc.infinitystorage.container.InfinityBagContainer
    @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|734|754|InfinityBagContainer|class|d4rsorc.infinitystorage.container.InfinityBagContainer|false
@@ -2036,16 +2048,6 @@ Class Start: d4rsorc.infinitystorage.container.InfinityBagContainer
       @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20342|20347|stack|param|d4rsorc.infinitystorage.container.InfinityBagContainer|syncSlot|(Lnet/minecraft/entity/player/EntityPlayerMP;ILnet/minecraft/item/ItemStack;)V|stack|2
       @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20350|20356|player|param|d4rsorc.infinitystorage.container.InfinityBagContainer|syncSlot|(Lnet/minecraft/entity/player/EntityPlayerMP;ILnet/minecraft/item/ItemStack;)V|player|0
    Method End: syncSlot(Lnet/minecraft/entity/player/EntityPlayerMP;ILnet/minecraft/item/ItemStack;)V
-   Method Start: setCanCraft(Lnet/minecraft/entity/player/EntityPlayer;Z)V
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20419|20425|player|param|d4rsorc.infinitystorage.container.InfinityBagContainer|setCanCraft|(Lnet/minecraft/entity/player/EntityPlayer;Z)V|player|0
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20435|20443|canCraft|param|d4rsorc.infinitystorage.container.InfinityBagContainer|setCanCraft|(Lnet/minecraft/entity/player/EntityPlayer;Z)V|canCraft|1
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20370|20378|Override|class|java.lang.Override|false
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20394|20405|setCanCraft|method|net.minecraft.inventory.Container|setCanCraft|(Lnet/minecraft/entity/player/EntityPlayer;Z)V
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20406|20418|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20458|20469|setCanCraft|method|net.minecraft.inventory.Container|setCanCraft|(Lnet/minecraft/entity/player/EntityPlayer;Z)V
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20470|20476|player|param|d4rsorc.infinitystorage.container.InfinityBagContainer|setCanCraft|(Lnet/minecraft/entity/player/EntityPlayer;Z)V|player|0
-      @|d4rsorc/infinitystorage/container/InfinityBagContainer.java|20478|20486|canCraft|param|d4rsorc.infinitystorage.container.InfinityBagContainer|setCanCraft|(Lnet/minecraft/entity/player/EntityPlayer;Z)V|canCraft|1
-   Method End: setCanCraft(Lnet/minecraft/entity/player/EntityPlayer;Z)V
 Class End  : d4rsorc.infinitystorage.container.InfinityBagContainer
 endProcessing "d4rsorc/infinitystorage/container/InfinityBagContainer.java"
 
@@ -5544,239 +5546,143 @@ Class Start: d4rsorc.infinitystorage.network.MessageSyncExtendedSlotContents
 Class End  : d4rsorc.infinitystorage.network.MessageSyncExtendedSlotContents
 endProcessing "d4rsorc/infinitystorage/network/MessageSyncExtendedSlotContents.java"
 
-startProcessing "d4rsorc/infinitystorage/network/NetworkUtils.java" md5: 862f888bd3b1759dcc9fe21cb56307e7
+startProcessing "d4rsorc/infinitystorage/network/NetworkUtils.java" md5: f4518c92685e145100a11c39df6d1495
 @|d4rsorc/infinitystorage/network/NetworkUtils.java|8|39|d4rsorc.infinitystorage.network|package|d4rsorc.infinitystorage.network|(file)
 Class Start: d4rsorc.infinitystorage.network.NetworkUtils
-   @|d4rsorc/infinitystorage/network/NetworkUtils.java|546|558|NetworkUtils|class|d4rsorc.infinitystorage.network.NetworkUtils|false
+   @|d4rsorc/infinitystorage/network/NetworkUtils.java|502|514|NetworkUtils|class|d4rsorc.infinitystorage.network.NetworkUtils|false
    Method Start: writeNBT(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|602|605|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|632|635|nbt|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|585|593|writeNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|594|601|ByteBuf|class|io.netty.buffer.ByteBuf|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|608|616|Nullable|class|javax.annotation.Nullable|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|617|631|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|648|651|nbt|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|670|673|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|674|683|writeByte|method|io.netty.buffer.ByteBuf|writeByte|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|724|745|CompressedStreamTools|class|net.minecraft.nbt.CompressedStreamTools|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|746|751|write|method|net.minecraft.nbt.CompressedStreamTools|write|(Lnet/minecraft/nbt/NBTTagCompound;Ljava/io/DataOutput;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|752|755|nbt|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|761|780|ByteBufOutputStream|class|io.netty.buffer.ByteBufOutputStream|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|781|784|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|804|815|IOException|class|java.io.IOException|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|850|866|EncoderException|class|io.netty.handler.codec.EncoderException|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|558|561|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|588|591|nbt|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|541|549|writeNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|550|557|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|564|572|Nullable|class|javax.annotation.Nullable|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|573|587|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|604|607|nbt|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|626|629|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|630|639|writeByte|method|io.netty.buffer.ByteBuf|writeByte|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|680|701|CompressedStreamTools|class|net.minecraft.nbt.CompressedStreamTools|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|702|707|write|method|net.minecraft.nbt.CompressedStreamTools|write|(Lnet/minecraft/nbt/NBTTagCompound;Ljava/io/DataOutput;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|708|711|nbt|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|nbt|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|717|736|ByteBufOutputStream|class|io.netty.buffer.ByteBufOutputStream|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|737|740|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|760|771|IOException|class|java.io.IOException|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|806|822|EncoderException|class|io.netty.handler.codec.EncoderException|false
    Method End: writeNBT(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
    Method Start: readNBT(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|952|955|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|921|935|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|936|943|readNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|944|951|ByteBuf|class|io.netty.buffer.ByteBuf|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|972|975|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|976|987|readerIndex|method|io.netty.buffer.ByteBuf|readerIndex|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1006|1009|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1010|1018|readByte|method|io.netty.buffer.ByteBuf|readByte|()B
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1085|1088|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1089|1100|readerIndex|method|io.netty.buffer.ByteBuf|readerIndex|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1134|1155|CompressedStreamTools|class|net.minecraft.nbt.CompressedStreamTools|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1156|1160|read|method|net.minecraft.nbt.CompressedStreamTools|read|(Ljava/io/DataInput;Lnet/minecraft/nbt/NBTSizeTracker;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1165|1183|ByteBufInputStream|class|io.netty.buffer.ByteBufInputStream|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1184|1187|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1194|1208|NBTSizeTracker|class|net.minecraft.nbt.NBTSizeTracker|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1237|1248|IOException|class|java.io.IOException|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1283|1299|EncoderException|class|io.netty.handler.codec.EncoderException|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|908|911|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|877|891|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|892|899|readNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|900|907|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|928|931|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|932|943|readerIndex|method|io.netty.buffer.ByteBuf|readerIndex|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|962|965|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|966|974|readByte|method|io.netty.buffer.ByteBuf|readByte|()B
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1041|1044|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1045|1056|readerIndex|method|io.netty.buffer.ByteBuf|readerIndex|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1090|1111|CompressedStreamTools|class|net.minecraft.nbt.CompressedStreamTools|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1112|1116|read|method|net.minecraft.nbt.CompressedStreamTools|read|(Ljava/io/DataInput;Lnet/minecraft/nbt/NBTSizeTracker;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1121|1139|ByteBufInputStream|class|io.netty.buffer.ByteBufInputStream|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1140|1143|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1150|1164|NBTSizeTracker|class|net.minecraft.nbt.NBTSizeTracker|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1193|1204|IOException|class|java.io.IOException|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1239|1255|EncoderException|class|io.netty.handler.codec.EncoderException|false
    Method End: readNBT(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
-   Method Start: writeExtendedItemStack(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1395|1398|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1410|1415|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1359|1381|writeExtendedItemStack|method|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1382|1394|PacketBuffer|class|net.minecraft.network.PacketBuffer|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1400|1409|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1428|1433|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1434|1441|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1454|1457|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1458|1468|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1495|1498|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1499|1509|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1510|1514|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1515|1528|getIdFromItem|method|net.minecraft.item.Item|getIdFromItem|(Lnet/minecraft/item/Item;)I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1529|1534|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1535|1542|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1555|1558|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1559|1569|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1570|1575|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1576|1584|getCount|method|net.minecraft.item.ItemStack|getCount|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1596|1599|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1600|1610|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1611|1616|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1617|1628|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1640|1654|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1691|1696|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1697|1704|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1707|1719|isDamageable|method|net.minecraft.item.Item|isDamageable|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1725|1730|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1731|1738|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1741|1752|getShareTag|method|net.minecraft.item.Item|getShareTag|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1784|1789|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1790|1797|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1800|1814|getNBTShareTag|method|net.minecraft.item.Item|getNBTShareTag|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1815|1820|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1841|1844|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1845|1861|writeCompoundTag|method|net.minecraft.network.PacketBuffer|writeCompoundTag|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/network/PacketBuffer;
-   Method End: writeExtendedItemStack(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V
    Method Start: writeExtendedItemStack(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1946|1949|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1961|1966|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1915|1937|writeExtendedItemStack|method|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1938|1945|ByteBuf|class|io.netty.buffer.ByteBuf|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1951|1960|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1979|1984|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1985|1992|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2005|2008|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2009|2017|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2044|2047|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2048|2056|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2057|2061|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2062|2075|getIdFromItem|method|net.minecraft.item.Item|getIdFromItem|(Lnet/minecraft/item/Item;)I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2076|2081|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2082|2089|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2102|2105|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2106|2114|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2115|2120|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2121|2129|getCount|method|net.minecraft.item.ItemStack|getCount|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2141|2144|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2145|2153|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2154|2159|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2160|2171|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2183|2197|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2234|2239|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2240|2247|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2250|2262|isDamageable|method|net.minecraft.item.Item|isDamageable|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2268|2273|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2274|2281|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2284|2295|getShareTag|method|net.minecraft.item.Item|getShareTag|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2327|2332|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2333|2340|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2343|2357|getNBTShareTag|method|net.minecraft.item.Item|getNBTShareTag|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2358|2363|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2384|2392|writeNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2393|2396|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1346|1349|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1361|1366|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1315|1337|writeExtendedItemStack|method|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1338|1345|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1351|1360|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1379|1384|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1385|1392|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1405|1408|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1409|1417|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1444|1447|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1448|1456|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1457|1461|Item|class|net.minecraft.item.Item|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1462|1475|getIdFromItem|method|net.minecraft.item.Item|getIdFromItem|(Lnet/minecraft/item/Item;)I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1476|1481|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1482|1489|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1502|1505|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1506|1514|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1515|1520|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1521|1529|getCount|method|net.minecraft.item.ItemStack|getCount|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1541|1544|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1545|1553|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1554|1559|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1560|1571|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1583|1597|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1634|1639|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1640|1647|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1650|1662|isDamageable|method|net.minecraft.item.Item|isDamageable|()Z
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1668|1673|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1674|1681|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1684|1695|getShareTag|method|net.minecraft.item.Item|getShareTag|()Z
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1727|1732|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1733|1740|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1743|1757|getNBTShareTag|method|net.minecraft.item.Item|getNBTShareTag|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1758|1763|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1784|1792|writeNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1793|1796|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStack|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
    Method End: writeExtendedItemStack(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
    Method Start: writeExtendedItemStackFromClientToServer(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2500|2503|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2515|2520|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2451|2491|writeExtendedItemStackFromClientToServer|method|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2492|2499|ByteBuf|class|io.netty.buffer.ByteBuf|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2505|2514|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2533|2538|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2539|2546|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2559|2562|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2563|2571|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2598|2601|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2602|2610|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2611|2615|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2616|2629|getIdFromItem|method|net.minecraft.item.Item|getIdFromItem|(Lnet/minecraft/item/Item;)I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2630|2635|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2636|2643|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2656|2659|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2660|2668|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2669|2674|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2675|2683|getCount|method|net.minecraft.item.ItemStack|getCount|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2695|2698|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2699|2707|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2708|2713|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2714|2725|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2737|2751|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2788|2793|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2794|2801|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2804|2816|isDamageable|method|net.minecraft.item.Item|isDamageable|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2822|2827|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2828|2835|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2838|2849|getShareTag|method|net.minecraft.item.Item|getShareTag|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2881|2886|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2887|2901|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2923|2931|writeNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2932|2935|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1900|1903|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1915|1920|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1851|1891|writeExtendedItemStackFromClientToServer|method|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1892|1899|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1905|1914|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1933|1938|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1939|1946|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1959|1962|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1963|1971|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|1998|2001|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2002|2010|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2011|2015|Item|class|net.minecraft.item.Item|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2016|2029|getIdFromItem|method|net.minecraft.item.Item|getIdFromItem|(Lnet/minecraft/item/Item;)I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2030|2035|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2036|2043|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2056|2059|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2060|2068|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2069|2074|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2075|2083|getCount|method|net.minecraft.item.ItemStack|getCount|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2095|2098|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2099|2107|writeInt|method|io.netty.buffer.ByteBuf|writeInt|(I)Lio/netty/buffer/ByteBuf;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2108|2113|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2114|2125|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2137|2151|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2188|2193|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2194|2201|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2204|2216|isDamageable|method|net.minecraft.item.Item|isDamageable|()Z
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2222|2227|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2228|2235|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2238|2249|getShareTag|method|net.minecraft.item.Item|getShareTag|()Z
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2281|2286|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|stack|1
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2287|2301|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2323|2331|writeNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|writeNBT|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2332|2335|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V|buf|0
    Method End: writeExtendedItemStackFromClientToServer(Lio/netty/buffer/ByteBuf;Lnet/minecraft/item/ItemStack;)V
-   Method Start: writeExtendedItemStackFromClientToServer(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3044|3047|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3059|3064|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2990|3030|writeExtendedItemStackFromClientToServer|method|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3031|3043|PacketBuffer|class|net.minecraft.network.PacketBuffer|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3049|3058|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3077|3082|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3083|3090|isEmpty|method|net.minecraft.item.ItemStack|isEmpty|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3103|3106|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3107|3117|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3144|3147|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3148|3158|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3159|3163|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3164|3177|getIdFromItem|method|net.minecraft.item.Item|getIdFromItem|(Lnet/minecraft/item/Item;)I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3178|3183|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3184|3191|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3204|3207|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3208|3218|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3219|3224|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3225|3233|getCount|method|net.minecraft.item.ItemStack|getCount|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3245|3248|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3249|3259|writeShort|method|io.netty.buffer.ByteBuf|writeShort|(I)Lio/netty/buffer/ByteBuf;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3260|3265|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3266|3277|getMetadata|method|net.minecraft.item.ItemStack|getMetadata|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3289|3303|NBTTagCompound|class|net.minecraft.nbt.NBTTagCompound|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3340|3345|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3346|3353|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3356|3368|isDamageable|method|net.minecraft.item.Item|isDamageable|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3374|3379|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3380|3387|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3390|3401|getShareTag|method|net.minecraft.item.Item|getShareTag|()Z
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3433|3438|stack|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|stack|1
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3439|3453|getTagCompound|method|net.minecraft.item.ItemStack|getTagCompound|()Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3475|3478|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|writeExtendedItemStackFromClientToServer|(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3479|3495|writeCompoundTag|method|net.minecraft.network.PacketBuffer|writeCompoundTag|(Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/network/PacketBuffer;
-   Method End: writeExtendedItemStackFromClientToServer(Lnet/minecraft/network/PacketBuffer;Lnet/minecraft/item/ItemStack;)V
    Method Start: readExtendedItemStack(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3584|3587|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3544|3553|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3554|3575|readExtendedItemStack|method|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3576|3583|ByteBuf|class|io.netty.buffer.ByteBuf|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3596|3607|IOException|class|java.io.IOException|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3623|3626|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3627|3634|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3672|3681|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3682|3687|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3718|3721|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3722|3729|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3748|3751|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3752|3759|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3770|3779|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3796|3805|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3806|3810|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3811|3822|getItemById|method|net.minecraft.item.Item|getItemById|(I)Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3851|3865|setTagCompound|method|net.minecraft.item.ItemStack|setTagCompound|(Lnet/minecraft/nbt/NBTTagCompound;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3866|3873|readNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3874|3877|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2425|2428|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2385|2394|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2395|2416|readExtendedItemStack|method|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2417|2424|ByteBuf|class|io.netty.buffer.ByteBuf|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2437|2448|IOException|class|java.io.IOException|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2464|2467|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2468|2475|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2513|2522|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2523|2528|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2559|2562|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2563|2570|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2589|2592|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2593|2600|readInt|method|io.netty.buffer.ByteBuf|readInt|()I
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2611|2620|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2637|2646|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2647|2651|Item|class|net.minecraft.item.Item|false
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2652|2663|getItemById|method|net.minecraft.item.Item|getItemById|(I)Lnet/minecraft/item/Item;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2692|2706|setTagCompound|method|net.minecraft.item.ItemStack|setTagCompound|(Lnet/minecraft/nbt/NBTTagCompound;)V
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2707|2714|readNBT|method|d4rsorc.infinitystorage.network.NetworkUtils|readNBT|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/nbt/NBTTagCompound;
+      @|d4rsorc/infinitystorage/network/NetworkUtils.java|2715|2718|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;|buf|0
    Method End: readExtendedItemStack(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/item/ItemStack;
-   Method Start: readExtendedItemStack(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3982|3985|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3937|3946|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3947|3968|readExtendedItemStack|method|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3969|3981|PacketBuffer|class|net.minecraft.network.PacketBuffer|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|3994|4005|IOException|class|java.io.IOException|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4021|4024|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4025|4034|readShort|method|io.netty.buffer.ByteBuf|readShort|()S
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4072|4081|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4082|4087|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4118|4121|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4122|4131|readShort|method|io.netty.buffer.ByteBuf|readShort|()S
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4150|4153|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4154|4163|readShort|method|io.netty.buffer.ByteBuf|readShort|()S
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4174|4183|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4200|4209|ItemStack|class|net.minecraft.item.ItemStack|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4210|4214|Item|class|net.minecraft.item.Item|false
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4215|4226|getItemById|method|net.minecraft.item.Item|getItemById|(I)Lnet/minecraft/item/Item;
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4255|4269|setTagCompound|method|net.minecraft.item.ItemStack|setTagCompound|(Lnet/minecraft/nbt/NBTTagCompound;)V
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4270|4273|buf|param|d4rsorc.infinitystorage.network.NetworkUtils|readExtendedItemStack|(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;|buf|0
-      @|d4rsorc/infinitystorage/network/NetworkUtils.java|4274|4289|readCompoundTag|method|net.minecraft.network.PacketBuffer|readCompoundTag|()Lnet/minecraft/nbt/NBTTagCompound;
-   Method End: readExtendedItemStack(Lnet/minecraft/network/PacketBuffer;)Lnet/minecraft/item/ItemStack;
 Class End  : d4rsorc.infinitystorage.network.NetworkUtils
 endProcessing "d4rsorc/infinitystorage/network/NetworkUtils.java"
 

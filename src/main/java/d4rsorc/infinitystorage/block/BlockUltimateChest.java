@@ -48,6 +48,11 @@ public class BlockUltimateChest extends Block {
     this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
   }
 
+  @Override
+  public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
+    return false;
+  }
+
   public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
     return ULTIMATE_CHEST_AABB;
   }
